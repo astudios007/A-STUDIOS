@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio</title>
+  <link rel="icon" type="image/jpg" href="img/white.png">
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="home.css">
+</head>
+<style>
+
+
+  .contact-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 50px;
+  }
+
+  h1, h2 {
+      color: #2c3e50;
+  }
+
+  label {
+      font-weight: bold;
+  }
+
+  input[type="text"], input[type="email"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+
+  input[type="submit"] {
+      background-color: #27ae60;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+      background-color: #2ecc71;
+  }
+
+  .contact-info {
+      margin: 20px 0;
+  }
+
+  .contact-info a {
+      color: #3498db;
+      text-decoration: none;
+  }
+
+  .contact-info a:hover {
+      text-decoration: underline;
+  }
+
+  iframe {
+      width: 100%;
+      border: none;
+      margin: 20px 0;
+  }
+</style>
+
+
+<body>
+  <section id="header">
+    <a href="#"><img src="img/A DESIGN.png" class="logo" id="logo"></a>
+    <div>
+      <!-- Navigation bar -->
+      <ul id="navbar">
+        <li><a  href="index.html">Home</a></li>
+        <li><a  href="shop.html">Shop</a></li>
+        <li><a href="Blog.html">Packages</a></li>
+        <li><a   href="anout.html">About</a></li>
+        <li><a  class="active" href="Contact.html">Contact Us</a></li>
+       
+        <a href="#" id="close"><i><ion-icon name="close"></ion-icon></i></a>
+    
+      </ul>
+    </div>
+    <!-- Mobile navigation -->
+    <div id="mobile">
+          <i id="bar">
+            <ion-icon name="menu-outline"></ion-icon>
+          </i>
+    </div>
+  </section>
+
+  <!-- Hero section -->
+  <section id="page-header">
+    <div class="bg-text">
+    <h2>#</h2>
+    <p style="color:white">GET YOUR'S</p>
+  </div>
+  </section>
+
+  <section>
+    <div>
+
+      </head>
+      <body>
+          <div class="contact-container">
+              
+              <h2>Contact Form</h2>
+              <form action="/submit_contact_form" method="POST">
+                  <label for="name">Name:</label><br>
+                  <input type="text" id="name" name="name" required><br><br>
+                  
+                  <label for="email">Email:</label><br>
+                  <input type="email" id="email" name="email" required><br><br>
+                  
+                  <label for="subject">Subject:</label><br>
+                  <input type="text" id="subject" name="subject" required><br><br>
+                  
+                  <label for="message">Message:</label><br>
+                  <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                  
+                  <input type="submit" value="Submit">
+              </form>
+      
+      
+          
+              <h2>Location</h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.8041616870436!2d78.1020953!3d9.9355612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf5d98e6046d%3A0xfeac191d134449a9!2sGrace%20Electronics%20-%20Electronics%20Spares%20in%20Madurai!5e0!3m2!1sen!2sin!4v1625738476257!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+      </body>
+      </html>
+          
+    </div>
+  </section>
+
+
+
+
+  <!-- Newsletter section -->
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign up for newsletters</h4>
+      <p>Get E-mail updates about our latest <span>offers</span></p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="Your email address">
+      <button class="normal">sign up</button>
+    </div>
+  </section>
+
+  <footer class="section-p1">
+    <div class="column">
+  <img src="img/white.png" alt="" id="log">     <p>Contact</p><p><strong>Head :</strong> 
+  AMOS  A </P>
+      <p><strong>Address:</strong>   DD Road Arapalayam,Madurai-16</p>
+      <p><strong>Phone:</strong>+91 9080000155</p>
+      <p><strong>Hours:</strong> 9:00 AM - 6:00 PM</p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+        <a href="https://wa.me/919080000155?text="></a>   <i><ion-icon name="logo-whatsapp"></ion-icon></i>
+       <a href="">  <i><ion-icon name="logo-twitter"></ion-icon></i></a>
+            <a href="https://instagram.com/a_designs_studios"> <i><ion-icon name="logo-instagram"></ion-icon></i> </a>
+          
+  
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Condition</a>
+      <a href="#">Contact us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      
+      <a href="#">view cart</a>
+      <a href="#">My wishlist</a>
+      <a href="#">Help</a>
+    </div>
+    <div>
+      <h4>Developer Details</h4>
+      <p><strong>Contact:</strong> +91 8668079616</p>
+      <P><b>Email:</b>balajee162004@gmail.com</P>
+      <p><b>Name :</b> BALAJEE S</p> 
+    </div>
+
+    <div class="copyright">
+      <p> © 2024 Developed by  Balajee S - Studio Webpage </p>
+    </div>
+  </footer>
+  
+
+  <!-- Script tags -->
+  <script src="home.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
+
+  
